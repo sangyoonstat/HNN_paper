@@ -31,7 +31,15 @@ MATLAB code to reproduce simulation results of AJIVE using the one [implemented 
 ## 2. Example
 
 ### 2.1 Generate data
-
+```{r}
+source("OtherFunctions/DoubleMatchedDataGen.R")
+source("DMMDFunctions/Preliminary_Functions.R")
+set.seed(37)
+# Generate data
+data = DoubleDataGen3(n = 20, p = 16, rank = c(4, 3), joint_rank_col = 2, joint_rank_row = 1, nrep = 1, std1 = 0.01, std2 = 0.01)
+X1 = data$X1_list[[1]]
+X2 = data$X2_list[[1]]
+```
 
 ### 2.2 Construct gird
 
