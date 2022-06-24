@@ -16,11 +16,7 @@ Codes used for numerical studies and real data analysis in the paper "Hierarchic
 
 ### 1.2 "simulations" folder
 
-Functions to run simulations for all methods except AJIVE 
-
-### 1.2.1 "main" folder
-
-### 1.2.2 "appendix" folder
+Inside "simulations" folder, there are "main" and "appendix" folders having functions to run simulations for HNN and other competing methods except AJIVE. In each folder, "dat" folder has simulated data sets for reproducibility.
 
 ## 2. Example
 
