@@ -20,9 +20,9 @@ Inside this folder, there are "main" and "appendix" folders having functions to 
 
 ### 1.3 GTEx
 
-**GTEx_all.RData, GTEx_data.mat** - Preprocessed Genotype-Tissue Expression (GTEx) data by Li and Jung (2017) 
+**GTEx_all.RData, GTEx_data.mat** - Preprocessed Genotype-Tissue Expression (GTEx) data by Li and Jung (2017) (https://github.com/reagan0323/SIFA)
 
-*fit_AJIVE.m, fit_BIDIFACs.R, fit_HNN.R, fit_JIVE.R, fit_SLIDE.R** - applying each method to the GTEx data
+**fit_AJIVE.m, fit_BIDIFACs.R, fit_HNN.R, fit_JIVE.R, fit_SLIDE.R** - applying each method to the GTEx data
 
 ### 1.4 all_sim_AJIVE.m
 Matlab code to reproduce simulation results of AJIVE. The code depends on using AJIVE as [implemented in MATLAB here](https://github.com/MeileiJiang/AJIVE_Project).
