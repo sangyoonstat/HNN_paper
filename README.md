@@ -28,7 +28,7 @@ Inside this folder, there are "main" and "appendix" folders having functions to 
 MATLAB code to reproduce simulation results of AJIVE using the one [implemented in here](https://github.com/MeileiJiang/AJIVE_Project).
 
 
-## 2. Example
+## 2. Example with two views
 
 ### 2.0 Get ready to run HNN
 
