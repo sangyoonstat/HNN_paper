@@ -20,7 +20,7 @@ Inside this folder, there are "main" and "appendix" folders having functions to 
 
 ### 1.3 GTEx
 
-**GTEx_all.RData, GTEx_data.mat** - Preprocessed Genotype-Tissue Expression (GTEx) data by Li and Jung (2017) (https://github.com/reagan0323/SIFA)
+**GTEx_all.RData, GTEx_data.mat** - Preprocessed Genotype-Tissue Expression (GTEx) data by [Li and Jung (2017)] (https://github.com/reagan0323/SIFA)
 
 **fit_AJIVE.m, fit_BIDIFACs.R, fit_HNN.R, fit_JIVE.R, fit_SLIDE.R** - applying each method to the GTEx data
 
