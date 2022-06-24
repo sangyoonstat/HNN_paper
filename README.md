@@ -12,7 +12,7 @@ Codes used for numerical studies and real data analysis in the paper "Hierarchic
 
 **gen_data.R** - data generation used in simulations
 
-**myslide.R**, **myunifacs.R** - wrapper for running SLIDE BIDIFAC and BIDIFAC+ in R 
+**myslide.R**, **myunifacs.R** - wrapper for running SLIDE, BIDIFAC and BIDIFAC+ in R 
 
 ### 1.2 simulations
 
