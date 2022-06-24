@@ -30,3 +30,17 @@ MATLAB code to reproduce simulation results of AJIVE using the one [implemented 
 
 ## 2. Example
 
+### 2.1 Generate data
+
+
+### 2.2 Construct gird
+
+
+### 2.3 Calculate HNN estimator over tuning gird
+
+
+### 2.4 Run modified BCV
+
+
+
+
