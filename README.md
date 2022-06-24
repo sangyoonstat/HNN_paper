@@ -79,8 +79,10 @@ r0 <- r1 <- r2 <- 2 ; snr <- 1 ; smin <- 1.0 ; smax <- 1.5
 
 set.seed(2022)
 
-sjoint <- runif(r0, smin, smax) ; s1ind <- runif(r1, smin, smax) ; s2ind <- runif(r2, smin, smax) # generate singular values
-dat <- dgen_orth_d2(n, pvec, sjoint, s1ind, s2ind, rep(snr, length(pvec)), orthogonalV = T) # generate data (orthogonal case)
+# generate singular values
+sjoint <- runif(r0, smin, smax) ; s1ind <- runif(r1, smin, smax) ; s2ind <- runif(r2, smin, smax)
+# generate data (orthogonal case)
+dat <- dgen_orth_d2(n, pvec, sjoint, s1ind, s2ind, rep(snr, length(pvec)), orthogonalV = T) 
 
 X_list <- cfold_list <- list() 
 X_list[[1]] <- dat$X[,c(1:p1)] # X_1
