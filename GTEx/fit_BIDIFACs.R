@@ -14,8 +14,8 @@ center = F ; eps = 10^-5 ; max_iter = 1000 ; seednum = NULL
 ######### 1.UNIFAC ##########
 #############################
 
-pdat <- prep_dat(X_list, center)
-sigma_vec <- pdat$sigma_vec ; mean_mat <- pdat$mean_mat
+#pdat <- prep_dat(X_list, center)
+#sigma_vec <- pdat$sigma_vec ; mean_mat <- pdat$mean_mat
 
 sigma_vec <- rep(1, 3)
 X00 <- cbind(X_list[[1]], X_list[[2]], X_list[[3]]) ; n <- pdat$n ; pvec <- pdat$pvec ; D <- length(pvec)
@@ -62,7 +62,8 @@ for (j in 1:D){
   ind2 <- start.ind.p[j]:end.ind.p[j]
   R00_list[[j]] <- R00[,ind2]*sigma_vec[j] 
   I00_list[[j]] <- I00[,ind2]*sigma_vec[j] 
-  S00_list[[j]] <- R00_list[[j]] + I00_list[[j]] + mean_mat[,ind2]
+  S00_list[[j]] <- R00_list[[j]] + I00_list[[j]] 
+  #+ mean_mat[,ind2]
 }
 
 unifac_Mhat <- cbind(S00_list[[1]], S00_list[[2]], S00_list[[3]])
