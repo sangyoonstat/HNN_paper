@@ -2,13 +2,15 @@
 clear
 clc
 
-% set path having AJIVE matlab code first
+% set path having AJIVE matlab code first, which can be found in https://github.com/MeileiJiang/AJIVE_Project
 addpath ../AJIVEcode/
 
-
+% configure the output to be presented at the end
 ioutput = [1, 1, 1, 1, 1, 1, 1, 1, 1];
 paramstruct0 = struct('ioutput', ioutput, ...
                       'iplot', [0 0]);
+                      
+% In each 1-8 below, the data set to be loaded is located in "dat" folder inside each subfolder of "simulation" folder                     
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%% 1. D = 2 with orthogonal case in the main paper %%%%%% 
