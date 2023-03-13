@@ -1,6 +1,10 @@
 
 require(SLIDE) # https://github.com/irinagain/SLIDE
 
+################################################################################################################
+######## The below code is the modified version of the code from https://github.com/irinagain/SLIDE ############
+################################################################################################################
+
 slide_BCV <- function(X, pvec, structure_list, fold_id_n, fold_id_p, k_max = 1000,
                       eps = 1e-06, center = T) {
   d <- length(pvec)
